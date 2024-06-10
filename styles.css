@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0000FF; /* Fundo azul */
+    color: #FFFFFF; /* Texto branco */
+}
+
+header {
+    background-color: #000080; /* Azul escuro */
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#livros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.livro {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    width: 200px;
+    background-color: #000080; /* Azul escuro */
+}
+
+.livro img {
+    max-width: 100%;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.livro h3 {
+    margin: 10px 0 5px;
+}
+
+.livro p {
+    margin: 5px 0;
+}
+
+.livro button {
+    background-color: #FFFFFF;
+    color: #000080;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000080; /* Azul escuro */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
